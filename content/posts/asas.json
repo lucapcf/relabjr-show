@@ -1,6 +1,6 @@
 {
   "texto": "a",
-  "autor": "michael jackson",
+  "autor": "Post 1",
   "selecao": "economia",
   "bool": true,
   "data": "July 29, 2023 6:40 PM",
@@ -10,5 +10,5 @@
   "genero": "economia",
   "imagem": "/uploads/1113005.jpg",
   "assunto": "outros",
-  "titulo": "MODELAÇÃO de negócios"
+  "titulo": "Título 1"
 }
