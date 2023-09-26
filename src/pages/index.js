@@ -40,27 +40,17 @@ export default function Home({home}) {
   return (
     <div className={styles['tudo']}>
       <React.Fragment>
-        {<Navbar />}
+      <Navbar />
       </React.Fragment>
       
       <Inicio title = {"GESTÃO É A NOSSA CAUSA"} image= {path}/>
       <ImagemComBotao {...resultados} />
-      {<ServicesHome />}
+      <ServicesHome />
       <ImagemComBotao {...membros} />        
-      {<Footer />}
+      <Footer /> 
     </div>
   )
 }
-
-
-// export async function getStaticProps() {
-
-//   const paginas = handleJSONfiles("./content/paginas");
-
-//   return {
-//     props: { paginas }
-//   };
-// }
 
 
 export async function getStaticProps(){

@@ -50,16 +50,19 @@
     display: flex;
     flex-direction: column;
     gap:5vh;
+    height: 100vh;
 }
 .second-two {
     display: flex;
     flex-direction: column;
     gap:5vh;
+    height: 100vh;
 }
 .third-two {
     display: flex;
     flex-direction: column;
     gap:5vh;
+    height: 100vh;
 }
 
 
@@ -90,7 +93,7 @@ each service
     background-image: url('../../../public/uploads/image/servicosHome/yellowFrame.png');
     background-repeat: no-repeat;
     width: 300px;
-    height: 47vh;
+    height: 450px;
 }
 
 
@@ -105,6 +108,7 @@ each service
 .top-text {
     color: #fff;
     width: 20vw;
+    height: 10vh;
     display: flex;
     text-align: center;
     font-size: 30px;
