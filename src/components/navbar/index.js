@@ -38,7 +38,14 @@ export default function navbar() {
                               styles.navRelabBtn
                             )
                           } ref={logoRef}>
-                        <h3>RELABJR</h3>
+                        {/* <h3>RELABJR</h3> */}
+                        <Image
+                        src={logo}
+                        width={90}
+                        height={90}
+                        // style={{objectFit: 'cover'}}
+                        alt="Post"
+                    />
                     </button>
                     {/*<a href="/">HOME</a>*/}
                     <a href="/quemSomos">QUEM SOMOS</a>
