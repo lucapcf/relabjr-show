@@ -1,4 +1,3 @@
-import Head from 'next/head'
 import Link from 'next/link'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
@@ -8,10 +7,10 @@ import ImagemComBotao from '../components/imagemComBotao'
 import ServicesHome from '../components/servicesHome'
 import Inicio from '../components/inicio'
 import TextoBarraHome from '../components/textoBarraHome/index'
+import CarouselHome from '../components/carouselHome'
 import { handleJSONfiles } from '@/utils/functions/jsonHandler'
 import { handleJSONfile } from '@/utils/functions/jsonHandler'
 import React from 'react';
-import CarouselHome from '../components/carouselHome'
 
 
 
@@ -47,7 +46,6 @@ export default function Home({home, posts, nav}) {
     instagram : nav.instagram,
     email : nav.email
   };
-  //console.log(navData);
 
 
   return (
@@ -59,7 +57,7 @@ export default function Home({home, posts, nav}) {
       <Inicio title = {"GESTÃO É A NOSSA CAUSA"} image= {path}/>
       <TextoBarraHome {...textoBarraHome}/>
       <ImagemComBotao {...resultados} />
-      <ServicesHome />
+      <ServicesHome servicosHome = {home.servicosHome}/>
 
       <ImagemComBotao {...membros} />     
       <CarouselHome {...posts}/>  
