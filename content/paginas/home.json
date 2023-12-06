@@ -2,12 +2,12 @@
   "inicioHome": {
     "imagem": "/uploads/imageminiciohome.jpg",
     "titulo": "POTENCIALIZAMOS O SEU NEGÓCIO",
-    "texto": "Bem-vindo à Relab Jr. Consultoria, a Empresa Júnior da Universidade do Vale do Rio dos Sinos (UNISINOS). Fundada com paixão em 2021, nossa missão é democratizar o acesso a serviços de consultoria empresarial para pequenas e médias empresas em Porto Alegre e na região metropolitana. Ao mesmo tempo, oferecemos um ambiente de aprendizado prático para nossos talentosos alunos. Nossos valores, como disciplina, compromisso, lealdade e trabalho árduo, nos impulsionam a entregar soluções de negócios inovadoras. Estamos aqui para ajudar empresas a prosperar e fornecer oportunidades de desenvolvimento profissional para a próxima geração de líderes empresariais. Junte-se a nós nesta jornada de crescimento e sucesso"
+    "texto": "Bem-vindo à Relab!\\\n\\\nSomos a Relab Jr. Consultoria, a Empresa Júnior da Universidade do Vale do Rio dos Sinos (Unisinos), nascida em 2021 com o propósito de transformar desafios em oportunidades. Composta por jovens talentosos e comprometidos com a excelência acadêmica, buscamos impactar positivamente nossos clientes e a sociedade em que estamos inseridos."
   },
   "imgBotaoRes": {
     "imagem": "/uploads/imagemresultados.png",
     "titulo": "MELHORE SEUS RESULTADOS",
-    "texto": "Potencialize seu negócio com soluções inovadoras da Relab Jr. Consultoria. Desbloqueie oportunidades, supere desafios e alcance novos horizontes. Descubra nossos serviços e comece sua jornada para o sucesso agora!",
+    "texto": "Potencialize seu negócio com soluções inovadoras da Relab. Desbloqueie oportunidades, supere desafios e alcance novos horizontes. Descubra nossos serviços e comece sua jornada para o sucesso agora!",
     "textoBotao": "Entre em Contato"
   },
   "servicosHome": {
