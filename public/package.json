@@ -1,0 +1,34 @@
+{
+  "name": "blog-com-nextjs",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@netlify/plugin-nextjs": "^4.36.1",
+    "@next/font": "^13.4.13",
+    "classnames": "^2.3.2",
+    "fs": "^0.0.1-security",
+    "gray-matter": "^4.0.3",
+    "jquery": "^3.7.1",
+    "next": "^13.5.5",
+    "next-images": "^1.8.5",
+    "nodemailer": "^6.9.7",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-hook-form": "^7.48.2",
+    "react-icons": "^4.12.0",
+    "react-markdown": "^6.0.3",
+    "swiper": "^10.3.1",
+    "validator": "^13.11.0"
+  },
+  "browser": {
+    "fs": false,
+    "path": false,
+    "os": false
+  }
+}
