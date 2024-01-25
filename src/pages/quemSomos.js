@@ -9,7 +9,7 @@ import styles from '../styles/quemSomos.module.css'
 import { handleJSONfiles } from '@/utils/functions/jsonHandler'
 import { handleJSONfile } from '@/utils/functions/jsonHandler'
 
-export default function quemSomos({home, quemSomos, membros, nav, carrosselQuemSomos, foo}) {
+export default function quemSomos({quemSomos, membros, nav, carrosselQuemSomos, foo}) {
 
   const path = quemSomos.inicioQuemSomos.imagem;
   const grid = {
