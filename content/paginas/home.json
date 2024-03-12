@@ -46,5 +46,13 @@
       "Viabilidade econômica para o sucesso"
     ],
     "tituloCarrossel": "NOVIDADES"
+  },
+  "carrosselHome": {
+    "tituloCarrossel": "NOVIDADES",
+    "postsCarrossel": [
+      "Roteiro para o Planejamento Estratégico",
+      "Gestão de Pessoas de Alto Impacto",
+      "A Jornada do Cliente"
+    ]
   }
 }
